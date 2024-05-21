@@ -3,11 +3,11 @@
 Prototype netwerk scanner Mycys platform
 
 Author: Daniëlle van der Tuin
-Version: 0.95 DockerV inline input & keyerror handeling
+Version: 1.0 DockerV Extra ARP scan voor host discovery & comandline astethics met pyfiglet
 
 Dit script is een eenvoudige netwerkscan die gebruik maakt van: 
 - nmap voor het ondekken van hosts, mac, Os, services en de versies hiervan 
-- scapy voor het ontdekken van open poorten door middel van multithreading.
+- scapy voor het ontdekken van open poorten door middel van multithreading & het zoeken naar actieve host mbv een ARP scan.
 """
 
 import nmap
@@ -17,7 +17,7 @@ from scapy.all import IP, TCP, sr, ICMP, ARP, Ether, srp
 from datetime import datetime
 import os
 import random
-from ipaddress import IPv4Network,  IPv4Address
+from ipaddress import IPv4Network, IPv4Address
 import sys
 import pyfiglet
 
@@ -177,9 +177,9 @@ def version_scan_with_vulns(host, port):
 
         # Return information about the service, including version and vulnerabilities if available
         if service_version:
-            return f"{service_name}({port}) - Version: {service_version} Vulnerabilities:{vulnerabilities}\n"
+            return f"\n{service_name}({port}) - Version: {service_version} Vulnerabilities:{vulnerabilities}"
         else:
-            return f"{service_name}({port})"
+            return f"\n{service_name}({port})"
     except KeyError as e:
         print(f"KeyError: {e} not found in scan results")
         return None
@@ -227,7 +227,7 @@ def scan_network(target):
     Parameters:
     target (str): The target IP range or host to be scanned.
     """
-    print("Starting networkscan on:", target)
+    print("Starting networkscan on:", target, "\n")
     try:
         # Get active hosts
         active_hosts = get_active_hosts(target)
@@ -266,7 +266,7 @@ def scan_network(target):
             print("IP:", ip_address)
             print("MAC:", mac_address)
             print("OS:", detected_os)
-            print("Open Vulnerable Ports/Services:", ' '.join(services_with_ports_and_versions) if services_with_ports_and_versions else "All closed")
+            print("Open Vulnerable Ports/Services:", ''.join(services_with_ports_and_versions) if services_with_ports_and_versions else "All closed")
             print()
 
             # schrijf alle resultaten naar de results array
@@ -300,6 +300,7 @@ def main():
     print(networkscan_art)
     subnet = input("Please enter an single IP or subnet (e.g., 192.168.1.0/24): ")
     scan_network(subnet)
+    
 
 if __name__ == "__main__":
     main()

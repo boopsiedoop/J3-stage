@@ -1,3 +1,6 @@
+# Author: Daniëlle van der Tuin
+# Version: 1.0 Alpine build
+
 # Gebruik Alpine Linux als basisimage
 FROM alpine:latest
 
@@ -25,6 +28,7 @@ RUN pip3 install --no-cache-dir \
     scapy \
     python-nmap \
     scapy-python3 \
+    pyfiglet \
     ipaddress
 
 # Copy the current directory contents into the container at /app

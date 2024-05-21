@@ -1,1 +1,0 @@
-                print("OS:", detected_os)

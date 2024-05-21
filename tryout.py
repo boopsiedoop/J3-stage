@@ -5,7 +5,6 @@ def scan_open_ports(target):
     scanner = masscan.PortScanner()
 
     # Perform port scan on the target
-    
     scanner.scan(target, ports='1-65535', arguments='--rate=10000')
 
     # Extract open ports
