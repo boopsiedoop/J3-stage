@@ -1,6 +1,0 @@
-Hostname: host.docker.internal
-IP: 192.168.1.109
-MAC: N/A
-OS: Microsoft Windows 10 1809 - 2004
-Open Ports/Services: msrpc(135) - No version detected, netbios-ssn(139) - No version detected, microsoft-ds(445) - No version detected, http(5357) - Version: 2.0
-
