@@ -1,7 +1,0 @@
-Hostname: router.asus.com
-IP: 192.168.1.1
-MAC: 1C:B7:2C:36:E8:08
-OS: Linux 2.6.8 - 2.6.30
-Open Vulnerable Ports/Services: domain(53) - Version: 2.76-g0007ee9
-Vulnerabilities:
-
