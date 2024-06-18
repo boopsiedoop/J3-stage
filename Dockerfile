@@ -41,4 +41,4 @@ WORKDIR /app
 # ENTRYPOINT ["tail", "-f", "/dev/null"]
 
 # laat de container direct de scan uitvoeren bij opstarten (comment voor testen)
-CMD ["python", "your_network_scanner.py"]
+CMD ["python", "netwerkscan.py"]
