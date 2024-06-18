@@ -1,4 +1,4 @@
-#!/usr/local/bin python
+
 """
 Prototype netwerk scanner Mycys platform
 
@@ -7,7 +7,7 @@ Version: 1.0 DockerV Extra ARP scan voor host discovery & comandline astethics m
 
 Dit script is een eenvoudige netwerkscan die gebruik maakt van: 
 - nmap voor het ondekken van hosts, mac, Os, services en de versies hiervan 
-- scapy voor het ontdekken van open poorten door middel van multithreading & het zoeken naar actieve host mbv een ARP scan.
+- scapy voor het ontdekken van open poorten door middel van multithreading & het zoeken naar actieve host m.b.v. een ARP scan.
 """
 
 import nmap

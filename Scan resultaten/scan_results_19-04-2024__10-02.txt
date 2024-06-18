@@ -1,0 +1,42 @@
+Hostname: router.asus.com
+IP: 192.168.1.1
+MAC: 1C:B7:2C:36:E8:08
+OS: Linux 2.6.8 - 2.6.30
+Open Ports/Services: domain(53) - Version: 2.76-g0007ee9, http(80) - Version: 2.0
+
+Hostname: LAPTOP-4UF8BPBE
+IP: 192.168.1.109
+MAC: N/A
+OS: Microsoft Windows 10 1809 - 2004
+Open Ports/Services: netbios-ssn(139) - No version detected, msrpc(135) - No version detected, microsoft-ds(445) - No version detected, http(5357) - Version: 2.0
+
+Hostname: test-OptiPlex-3020
+IP: 192.168.1.12
+MAC: F8:BC:12:68:10:96
+OS: Unknown
+All closed
+
+Hostname: OnePlus-8
+IP: 192.168.1.136
+MAC: F2:E5:99:EA:B3:FA
+OS: Unknown
+All closed
+
+Hostname: S23-van-Eden
+IP: 192.168.1.69
+MAC: 8A:44:81:AD:F7:5D
+OS: Unknown
+All closed
+
+Hostname: LAPTOP-KEG3A0G8
+IP: 192.168.1.88
+MAC: E0:0A:F6:50:36:D1
+OS: Unknown
+All closed
+
+Hostname: LAPTOP-FS0BFR7O
+IP: 192.168.1.91
+MAC: 94:8C:08:17:66:68
+OS: Unknown
+All closed
+

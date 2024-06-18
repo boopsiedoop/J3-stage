@@ -1,0 +1,24 @@
+Hostname: router.asus.com
+IP: 192.168.1.1
+MAC: 1C:B7:2C:36:E8:08
+OS: Linux 2.6.8 - 2.6.30
+Open Vulnerable Ports/Services: 
+http(80) - Version: 2.0 Vulnerabilities:
+  cpe:/a:acme:milli_httpd:2.0: 
+    	OSV:CVE-2023-27522	5.0	https://vulners.com/osv/OSV:CVE-2023-27522
+    	CVE-2024-0263	5.0	https://vulners.com/cve/CVE-2024-0263
+
+Hostname: host.docker.internal
+IP: 192.168.1.109
+MAC: N/A
+OS: Microsoft Windows 10 1809 - 2004
+Open Vulnerable Ports/Services: 
+microsoft-ds(445)
+netbios-ssn(139)
+
+Hostname: OnePlus-8
+IP: 192.168.1.136
+MAC: F2:E5:99:EA:B3:FA
+OS: Unknown
+All closed
+

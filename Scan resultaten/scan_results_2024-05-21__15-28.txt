@@ -1,0 +1,17 @@
+Hostname: router.asus.com
+IP: 192.168.1.1
+MAC: 1C:B7:2C:36:E8:08
+OS: Linux 2.6.8 - 2.6.30
+Open Vulnerable Ports/Services: 
+domain(53) - Version: 2.76-g0007ee9 Vulnerabilities:
+  cpe:/a:thekelleys:dnsmasq:2.76-g0007ee9: 
+    	CVE-2020-25682	8.3	https://vulners.com/cve/CVE-2020-25682
+    	CVE-2020-25681	8.3	https://vulners.com/cve/CVE-2020-25681
+    	CVE-2020-25687	7.1	https://vulners.com/cve/CVE-2020-25687
+    	CVE-2020-25683	7.1	https://vulners.com/cve/CVE-2020-25683
+    	CVE-2021-3448	4.3	https://vulners.com/cve/CVE-2021-3448
+    	CVE-2020-25686	4.3	https://vulners.com/cve/CVE-2020-25686
+    	CVE-2020-25685	4.3	https://vulners.com/cve/CVE-2020-25685
+    	CVE-2020-25684	4.3	https://vulners.com/cve/CVE-2020-25684
+    	CBF3EF2D-3A5B-5110-A374-4A5ADE9AC91A	4.3	https://vulners.com/githubexploit/CBF3EF2D-3A5B-5110-A374-4A5ADE9AC91A	*EXPLOIT*
+

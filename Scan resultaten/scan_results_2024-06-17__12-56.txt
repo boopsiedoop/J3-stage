@@ -1,0 +1,46 @@
+Hostname: Unknown
+IP: 192.168.178.1
+MAC: 48:D3:43:CE:8B:F8
+OS: Ubee EVW3226 or Arris TG1672 or TG862G cable modem (Linux 2.6.18)
+Open Vulnerable Ports/Services: 
+http(80)
+http(443)
+
+Hostname: Unknown
+IP: 192.168.178.17
+MAC: 42:B0:2A:2A:88:8C
+OS: Unknown
+All closed
+
+Hostname: host.docker.internal
+IP: 192.168.178.19
+MAC: N/A
+OS: Microsoft Windows 10 2004
+Open Vulnerable Ports/Services: 
+netbios-ssn(139)
+microsoft-ds(445)
+
+Hostname: DESKTOP-AFC3H89
+IP: 192.168.178.21
+MAC: F0:2F:74:CB:48:C4
+OS: Microsoft Windows XP SP3
+All closed
+
+Hostname: DESKTOP-4Q2KK2B
+IP: 192.168.178.23
+MAC: F0:2F:74:CF:79:E4
+OS: Microsoft Windows XP SP3
+All closed
+
+Hostname: Unknown
+IP: 192.168.178.28
+MAC: 72:DC:DA:F6:5C:4C
+OS: Unknown
+All closed
+
+Hostname: Unknown
+IP: 192.168.178.37
+MAC: 5C:0C:E6:6B:69:14
+OS: Unknown
+All closed
+
