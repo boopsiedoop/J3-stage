@@ -1,6 +1,0 @@
-Hostname: host.docker.internal
-IP: 192.168.1.109
-MAC: N/A
-OS: Microsoft Windows 10 1809 - 2004
-Open Vulnerable Ports/Services: netbios-ssn(139), microsoft-ds(445)
-
